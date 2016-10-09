@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Except for...
+!.gitignore
+!Dockerfile
+!*.md
+!*.ipynb
+
+# ..even if they are in subdirectories
+!*/
+
+# Ignore iPython checkpoints
+*/.ipynb_checkpoints
